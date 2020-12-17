@@ -64,8 +64,6 @@ export default function Home() {
   return (
     <>
 
-        <h1>TweeterLator</h1>
-
       <nav>
         <GraphButton onClick={toggleGraph} isOpen={!aboutText} />
         <AboutButton onClick={toggleAboutText} isOpen={aboutText} />

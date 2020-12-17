@@ -5,13 +5,13 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  pathPrefix: '/tweeterlator',
   plugins: [
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: ["IBM Plex Mono"],
-        display: "swap",
+        fonts: ['IBM Plex Mono'],
+        display: 'swap',
       },
     },
   ],

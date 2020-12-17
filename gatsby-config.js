@@ -5,17 +5,14 @@
  */
 
 module.exports = {
-  siteMetadata: {
-    title: `TweeterLator`,
-  },
+  /* Your site config here */
   plugins: [
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`montserrat`, 'IBM Plex Mono'],
-        display: 'swap',
+        fonts: ["IBM Plex Mono"],
+        display: "swap",
       },
     },
-    `gatsby-plugin-react-helmet`,
   ],
 }
